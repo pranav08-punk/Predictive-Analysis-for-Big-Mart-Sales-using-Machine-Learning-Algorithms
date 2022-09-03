@@ -151,6 +151,7 @@ def train_model(request):
     X_train, X_test, y_train, y_test = train_test_split(df_train, y_train, test_size=0.4)
 
     # Linear Regression ****************
+    #sanjay's comment
     print("Linear Regression")
 
     from sklearn.linear_model import LinearRegression
