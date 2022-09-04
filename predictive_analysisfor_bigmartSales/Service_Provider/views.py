@@ -152,6 +152,7 @@ def train_model(request):
 
     # Linear Regression ****************
     #sanjay's comment
+    #pranav commit
     print("Linear Regression")
 
     from sklearn.linear_model import LinearRegression
