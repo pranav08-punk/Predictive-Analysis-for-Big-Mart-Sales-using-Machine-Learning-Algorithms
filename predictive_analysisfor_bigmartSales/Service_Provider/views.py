@@ -159,7 +159,7 @@ def train_model(request):
     model = LinearRegression()
     model.fit(X_train, y_train)
     preds = model.predict(X_test)
-
+    print("Ridge Regression")
     from sklearn.linear_model import Ridge
     model2 = Ridge()
     model2.fit(X_train, y_train)
